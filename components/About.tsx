@@ -9,17 +9,21 @@ import {
   Layers, 
   Figma, 
   Github, 
-  Cpu 
+  Cpu,
+  Code,
+  Zap
 } from "lucide-react";
 
 const skills = [
+  { name: "Next JS", icon: Zap, level: 96, color: "text-white" },
+  { name: "React JS", icon: Code, level: 98, color: "text-blue-400" },
+  { name: "React Native", icon: Smartphone, level: 92, color: "text-emerald-400" },
   { name: "Frontend Development", icon: Monitor, level: 95, color: "text-indigo-400" },
   { name: "Backend Architecture", icon: Server, level: 90, color: "text-violet-400" },
-  { name: "Mobile Strategy", icon: Smartphone, level: 85, color: "text-cyan-400" },
-  { name: "UI/UX Design", icon: Figma, level: 80, color: "text-pink-400" },
+  { name: "UI/UX Design", icon: Figma, level: 85, color: "text-pink-400" },
   { name: "Data Systems", icon: Database, level: 88, color: "text-blue-400" },
   { name: "Cloud Infrastructure", icon: Layers, level: 82, color: "text-teal-400" },
-  { name: "Open Source", icon: Github, level: 92, color: "text-white" },
+  { name: "Github & OSS", icon: Github, level: 92, color: "text-white" },
   { name: "DevOps & CI/CD", icon: Cpu, level: 85, color: "text-emerald-400" },
 ];
 
